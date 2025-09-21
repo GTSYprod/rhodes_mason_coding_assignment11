@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "docker:start": "next start -p 7775"
   },
   "dependencies": {
     "react": "19.1.0",
